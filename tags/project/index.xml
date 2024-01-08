@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on CreatorInDeep</title>
-    <link>creatorindeep.github.io/tags/project/</link>
+    <link>/tags/project/</link>
     <description>Recent content in Project on CreatorInDeep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 11:10:36 +0800</lastBuildDate>
-    <atom:link href="creatorindeep.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eternal Vigil: Crystal Defender</title>
-      <link>creatorindeep.github.io/projects/eternal_vigil/</link>
+      <link>/projects/eternal_vigil/</link>
       <pubDate>Mon, 08 Jan 2024 11:10:36 +0800</pubDate>
-      <guid>creatorindeep.github.io/projects/eternal_vigil/</guid>
+      <guid>/projects/eternal_vigil/</guid>
       <description>Experience intense first-person combat and strategic tower defense as you battle enemies up close and protect the sacred Crystal.</description>
     </item>
     <item>
       <title>Tsar Game Engine</title>
-      <link>creatorindeep.github.io/projects/tsar_game_engine/</link>
+      <link>/projects/tsar_game_engine/</link>
       <pubDate>Mon, 08 Jan 2024 11:10:36 +0800</pubDate>
-      <guid>creatorindeep.github.io/projects/tsar_game_engine/</guid>
+      <guid>/projects/tsar_game_engine/</guid>
       <description>Tsar Engine: A lightweight, yet powerful game engine designed for efficiency and flexibility. Built using modern C++ and Vulkan, it specializes in delivering high-performance graphics and a customizable development environment, ideal for creating a diverse range of immersive gaming experiences.</description>
     </item>
     <item>
       <title>The Meaning</title>
-      <link>creatorindeep.github.io/projects/the_meaning/</link>
+      <link>/projects/the_meaning/</link>
       <pubDate>Sat, 22 Oct 2022 11:10:36 +0800</pubDate>
-      <guid>creatorindeep.github.io/projects/the_meaning/</guid>
+      <guid>/projects/the_meaning/</guid>
       <description>&amp;ldquo;The Meaning&amp;rdquo; is a first-person psychological horror game focused on tense exploration and immersive storytelling. You are Ethen Daniels, a man who is struggling with the loss of his family and is now pursuing the meaning of life once again.</description>
     </item>
   </channel>
