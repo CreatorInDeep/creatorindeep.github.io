@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="creatorindeep.github.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="creatorindeep.github.io/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="creatorindeep.github.io/favicon/favicon-16x16.png">
+<link rel="manifest" href="creatorindeep.github.io/favicon/site.webmanifest">
+<link rel="mask-icon" href="creatorindeep.github.io/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name">Portfolio
+</title>
+<meta name="description" content="Tsar Engine: A lightweight, yet powerful game engine designed for efficiency and flexibility. Built using modern C&#43;&#43; and Vulkan, it specializes in delivering high-performance graphics and a customizable development environment, ideal for creating a diverse range of immersive gaming experiences." />
+<meta property="og:title" content="Tsar Game Engine | CreatorInDeep" />
+<meta name="twitter:title" content="Tsar Game Engine | CreatorInDeep" />
+<meta itemprop="name" content="Tsar Game Engine | CreatorInDeep" />
+<meta name="application-name" content="Tsar Game Engine | CreatorInDeep" />
+<meta property="og:description"
+      content="Tsar Engine: A lightweight, yet powerful game engine designed for efficiency and flexibility. Built using modern C&#43;&#43; and Vulkan, it specializes in delivering high-performance graphics and a customizable development environment, ideal for creating a diverse range of immersive gaming experiences." />
+<meta property="og:site_name" content="CreatorInDeep" />
+<meta property="og:url" content="creatorindeep.github.io/projects/tsar_game_engine/" />
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/../assets/images/featured/Tsar_Overlay.png" />
+<meta property="og:image:secure_url" content="assets/images/featured/Tsar_Overlay.png" />
+<meta property="og:type" content="article" />
+
+<script>
+    
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+
+<link rel="stylesheet" href="/css/style.min.d8a7e113028b2a862dff77a90dcebe9ccf0c1d4b529c082cf9240fa6003ebf32.css" integrity="sha256-2KfhEwKLKoYt/3epDc6+nM8MHUtSnAgs+SQPpgA+vzI=" />
+
+</head>
+
+<body class="bg-zinc-100 dark:bg-gray-800">
+    <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
+    <div x-data="{ open: false }"
+         class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div class="flex flex-row items-center justify-between p-4">
+            <a href="creatorindeep.github.io/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                <div
+                     class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    CreatorInDeep</div>
+            </a>
+            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                    <path x-show="!open" fill-rule="evenodd"
+                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                          clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd"
+                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <nav :class="{'flex': open, 'hidden': !open}"
+             class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
+                href="creatorindeep.github.io/about/" title="About">
+                About
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
+                href="creatorindeep.github.io/projects" title="Projects">
+                Projects
+            </a>
+            
+            
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-700 focus:outline-none focus:shadow-outline"
+                href="creatorindeep.github.io/blogs/" title="Blogs">
+                Blogs
+            </a>
+            
+            
+            
+            <button id="theme-toggle" type="button"
+                    class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden">
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                    </path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                          fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            
+        </nav>
+    </div>
+</div>
+    
+<article>
+  <header class="mb-4 bg-primary-600">
+    <span class="py-96">
+      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
+        Tsar Game Engine
+      </h1>
+    </span>
+  </header>
+  <div class="max-w-4xl mx-auto mt-8 mb-2">
+    <div class="px-6">
+      
+      
+      
+      
+      
+      
+      <img src="creatorindeep.github.io/../assets/images/featured/Tsar_Overlay_hu9f8cb670a7f7db720bc9a6cbe5867791_458546_1500x0_resize_q80_h2_box_3.webp" srcset=", /../assets/images/featured/Tsar_Overlay_hu9f8cb670a7f7db720bc9a6cbe5867791_458546_400x0_resize_q80_h2_box_3.webp 400w, /../assets/images/featured/Tsar_Overlay_hu9f8cb670a7f7db720bc9a6cbe5867791_458546_550x0_resize_q80_h2_box_3.webp 550w, /../assets/images/featured/Tsar_Overlay_hu9f8cb670a7f7db720bc9a6cbe5867791_458546_900x0_resize_q80_h2_box_3.webp 768w, /../assets/images/featured/Tsar_Overlay_hu9f8cb670a7f7db720bc9a6cbe5867791_458546_1500x0_resize_q80_h2_box_3.webp 1100w"
+           class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+           width="100%" alt="" />
+      
+      
+    </div>
+  </div>
+  
+  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
+    <h1 id="the-idea-behind-the-engine">The idea behind the engine</h1>
+<p>Having spent years programming with Unity, my team and I reached a consensus to develop our own game engine. Our decision was driven by the realization that Unity, while robust, falls short in optimization and suitability for larger titles. The proprietary nature of Unity also meant we were often left in the dark when the engine crashed, with no way to investigate the root causes.</p>
+<p>Unity&rsquo;s source code presents its own challenges, divided as it is between older, somewhat reliable code, and newer code that often feels glitchy and bug-ridden. A case in point is the VFX Graph; despite the underlying code being present, its binding is not externally exposed, limiting our ability to fully utilize it.</p>
+<p>Why not opt for Unreal Engine? The answer is simplicity and efficiency. Unreal Engine, for all its capabilities, felt unnecessarily heavy for our purposes. We sought an engine that was both lightweight and potent. We experimented with Unreal Engine for about a month and a half but ultimately decided it didn&rsquo;t meet our specific requirements, leading us to embark on the journey of creating a tailored solution that aligns with our vision and project needs.</p>
+<h1 id="rendering">Rendering?</h1>
+<p>The architectural journey of our game engine began with a deep dive into the world of graphics APIs, leading us to consider three main contenders: Vulkan, DirectX12, and OpenGL. Each API brought its unique advantages and challenges to the table.</p>
+<p>OpenGL, despite its extensive user base and abundance of tutorials, was ultimately set aside. Its core architecture, rooted in an older state machine design, lacked the modern efficiency we sought. In contrast, Vulkan and DirectX12 were both engineered with multithreading support, a crucial feature for our purposes.</p>
+<p>The decision between Vulkan and DirectX12 was not an easy one. It involved extensive research, reviewing numerous benchmarks, and evaluating the user base and available resources for each API. After careful consideration, we chose Vulkan. This decision was driven by Vulkan&rsquo;s widespread device support, the wealth of quality learning materials, and its consistent and stable performance observed in various games. Furthermore, Vulkan&rsquo;s API structure is notably more consistent and well-organized compared to its counterparts, aligning better with our vision for a high-performance, efficient rendering system.</p>
+<h1 id="scripting">Scripting?</h1>
+<p>At the outset of our engine development, we chose C# and Mono for scripting, largely due to our familiarity with these from our experience with Unity. A key aspect that made C# particularly appealing was its support for Reflection, a powerful feature for scripting. Reflection&rsquo;s ability to handle implementations implicitly, without the need for explicit specifications, significantly streamlines the scripting process.</p>
+<p>C# is not only user-friendly but also boasts speed and performance closely rivaling that of C++. However, after thorough consideration and analysis, we&rsquo;ve recently decided to transition to C++. Despite C#&rsquo;s efficiency and the availability of Profile Guided Optimizations (PGOs) that enhance its performance, C++ still outperforms in terms of speed. As a lower-level language compared to C#, C++ offers more direct control over system resources and hardware. This control, combined with C++&rsquo;s inherent performance advantage, makes it a more suitable choice for our engine&rsquo;s requirements.</p>
+<p>In moving to C++, we plan to utilize <a href="https://www.rttr.org/">&lsquo;rttr&rsquo;</a> library for reflection capabilities. Should rttr not meet our specific needs, we are prepared to develop our own reflection library to ensure our engine remains as efficient and adaptable as possible.</p>
+
+  </div>
+</article>
+
+    
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<script src="creatorindeep.github.io/js/darkmode.js" defer></script>
+<footer class="bg-gray-900">
+    <div class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
+            
+            <div class="px-5 py-2">
+                <a href="creatorindeep.github.io/about/" class="text-base text-gray-400 hover:text-gray-300">About</a>
+            </div>
+            
+            <div class="px-5 py-2">
+                <a href="creatorindeep.github.io/blogs/" class="text-base text-gray-400 hover:text-gray-300">Blog</a>
+            </div>
+            
+            <div class="px-5 py-2">
+                <a href="creatorindeep.github.io/projects/tsar_game_engine" class="text-base text-gray-400 hover:text-gray-300">Tsar Game Engine</a>
+            </div>
+            
+            <div class="px-5 py-2">
+                <a href="creatorindeep.github.io/projects/eternal_vigil" class="text-base text-gray-400 hover:text-gray-300">Eternal Vigil</a>
+            </div>
+            
+            <div class="px-5 py-2">
+                <a href="creatorindeep.github.io/projects/the_meaning" class="text-base text-gray-400 hover:text-gray-300">The Meaning</a>
+            </div>
+            
+        </nav>
+        <div class="flex justify-center mt-8 space-x-6">
+            
+            <a href="https://github.com/CreatorInDeep" class="text-gray-400 hover:text-gray-300">
+                <span class="sr-only">GitHub</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                          d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                          clip-rule="evenodd" />
+                </svg>
+            </a>
+            
+        </div>
+        <p class="mt-8 text-base text-center text-gray-400">&copy; 2024
+            Mustafa "CreatorInDeep" Mustafov. All rights
+            reserved.</p>
+        <p class="mt-2 text-base text-center text-gray-400">Website built using Hugo and Tailbliss.</a>
+        </p>
+    </div>
+</footer>
+</body>
+
+</html>
